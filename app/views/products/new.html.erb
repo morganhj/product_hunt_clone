@@ -1,0 +1,5 @@
+<%= simple_form_for @product do |f| %>
+<%= f.input :name, as: :string, label: "Product Name" %>
+<%= f.input :tagline, as: :string, label: "Product Tagline" %>
+<%= f.submit "Create Product", class: "btn btn-primary" %>
+<% end %>
